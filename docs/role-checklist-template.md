@@ -27,12 +27,12 @@ This template helps teams ensure that project roles are well-defined, documented
 - [ ] Any shared responsibilities with other roles are explicitly noted
 - [ ] Success criteria or key outcomes are identifiable from the responsibilities
 
-### 3. Interactions
-- [ ] Key interactions with other team roles are documented
-- [ ] Communication channels and cadences are specified where relevant
-- [ ] Escalation paths and decision-making authority are clear
+### 3. Communication and Collaboration
+- [ ] Key communication channels and cadences are documented
+- [ ] Typical communication activities are specified (meetings, reports, etc.)
 - [ ] Cross-functional collaboration expectations are outlined
 - [ ] Stakeholder engagement requirements are defined
+- [ ] Escalation paths and decision-making authority are clear
 
 ### 4. Role Assignment and Onboarding
 - [ ] Individual assigned to the role has been identified
@@ -85,18 +85,20 @@ Copy this section to define a new role:
 - [Responsibility 3]
 - [Add more as needed]
 
-**Interactions:**
-- **With [Role A]:** [How they collaborate]
-- **With [Role B]:** [How they collaborate]
-- **With [Stakeholder Group]:** [How they engage]
+**Goals:**
+- [Goal or outcome 1]
+- [Goal or outcome 2]
+- [Goal or outcome 3]
+
+**Typical Communication:**
+- [Communication activity or channel 1]
+- [Communication activity or channel 2]
+- [Stakeholder interactions]
 - [Add more as needed]
 
 **Key Artifacts/Deliverables:**
 - [Document or artifact type 1]
 - [Document or artifact type 2]
-
-**Success Indicators:**
-- [How effectiveness in this role can be measured]
 
 ---
 
