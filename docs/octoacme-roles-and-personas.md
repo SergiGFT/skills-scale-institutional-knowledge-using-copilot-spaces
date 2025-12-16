@@ -1,6 +1,6 @@
 # OctoAcme Personas
 
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
+This document defines typical roles and responsibilities used in OctoAcme project docs and exercises. In modern project environments, clearly defined roles enhance collaboration, accountability, and delivery success. Each persona outlined here represents a critical function that contributes to effective project execution, from initial planning through deployment and continuous improvement.
 
 ---
 
@@ -72,6 +72,102 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 - Weekly status updates and stakeholder reports
 - Risk registers and decision logs
 - Coordination via project boards and meeting facilitation
+
+---
+
+## Release Manager
+
+### Role Summary
+Release Managers orchestrate the end-to-end release process, coordinating deployment activities, managing release schedules, and ensuring smooth transitions from development to production. They act as the central point of coordination for release planning, risk assessment, and go-live activities.
+
+### Responsibilities
+- Plan and schedule releases across multiple teams and environments
+- Coordinate deployment activities and manage release windows
+- Track release readiness criteria and sign-off requirements
+- Manage release documentation and runbooks
+- Facilitate go/no-go decisions with stakeholders
+- Monitor post-deployment health and coordinate rollback procedures if needed
+- Maintain release calendars and communicate changes to stakeholders
+
+### Interactions
+- **With Developers**: Coordinate code freezes, review deployment artifacts, and validate readiness for production
+- **With Quality Advocates**: Confirm testing completion and sign-off before releases
+- **With Project Managers**: Align release timelines with project milestones and dependencies
+- **With Technical Writers**: Ensure release notes and customer-facing documentation are ready
+- **With Customer Success Leads**: Communicate release impacts and coordinate customer notifications
+- **With Stakeholders**: Provide release status updates and facilitate approval processes
+
+---
+
+## Quality Advocate
+
+### Role Summary
+Quality Advocates champion quality throughout the development lifecycle, ensuring that products meet functional and non-functional requirements. They design testing strategies, identify quality risks early, and promote quality-focused practices across the team.
+
+### Responsibilities
+- Define and execute comprehensive test strategies and plans
+- Create and maintain test cases, automation frameworks, and quality metrics
+- Identify, document, and track defects through resolution
+- Perform various testing types (functional, regression, integration, performance)
+- Advocate for quality best practices and testability in design
+- Review acceptance criteria and definition of done with product and engineering teams
+- Provide quality-related insights in sprint planning and retrospectives
+
+### Interactions
+- **With Developers**: Collaborate on testability, review code changes, and validate fixes
+- **With Product Managers**: Clarify acceptance criteria and validate user scenarios
+- **With Release Managers**: Provide test completion status and quality sign-off for releases
+- **With Project Managers**: Report on quality metrics, testing progress, and blockers
+- **With Technical Writers**: Validate documentation accuracy against actual product behavior
+- **With Customer Success Leads**: Share insights on common quality issues affecting customers
+
+---
+
+## Customer Success Lead
+
+### Role Summary
+Customer Success Leads ensure that customers achieve their desired outcomes while using OctoAcme products and services. They serve as the voice of the customer within the organization, gathering feedback, advocating for customer needs, and coordinating resolution of customer issues.
+
+### Responsibilities
+- Build and maintain strong relationships with key customer accounts
+- Onboard new customers and ensure successful product adoption
+- Gather customer feedback and communicate insights to product and engineering teams
+- Coordinate resolution of customer issues and escalations
+- Track customer health metrics and identify at-risk accounts
+- Advocate for customer needs in product planning and prioritization
+- Develop customer success resources, best practices, and enablement materials
+
+### Interactions
+- **With Product Managers**: Share customer feedback, use cases, and feature requests
+- **With Developers**: Communicate customer-reported issues and validate fixes in customer contexts
+- **With Release Managers**: Coordinate customer communications for upcoming releases and maintenance windows
+- **With Quality Advocates**: Provide real-world customer scenarios for testing validation
+- **With Technical Writers**: Collaborate on customer-facing documentation and knowledge base articles
+- **With Project Managers**: Provide customer perspective on project priorities and timelines
+
+---
+
+## Technical Writer
+
+### Role Summary
+Technical Writers create clear, accurate, and user-friendly documentation that enables users, developers, and internal teams to effectively understand and use OctoAcme products and processes. They translate complex technical concepts into accessible content.
+
+### Responsibilities
+- Write and maintain user guides, API documentation, and technical specifications
+- Create release notes and change logs for product updates
+- Develop onboarding materials and tutorials for new users
+- Collaborate with engineering to document features and workflows
+- Establish and maintain documentation standards and style guides
+- Review and edit technical content for clarity and accuracy
+- Manage documentation repositories and publishing workflows
+
+### Interactions
+- **With Developers**: Gather technical details, review API changes, and validate code examples
+- **With Product Managers**: Understand feature intent and target audiences for documentation
+- **With Customer Success Leads**: Identify documentation gaps based on customer questions and feedback
+- **With Release Managers**: Create and publish release notes aligned with deployment schedules
+- **With Quality Advocates**: Verify that documentation accurately reflects tested product behavior
+- **With Project Managers**: Align documentation timelines with project deliverables
 
 ---
 
